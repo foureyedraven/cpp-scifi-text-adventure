@@ -1,0 +1,36 @@
+/*
+suggested soundtrack https://www.youtube.com/watch?v=INSsZk-5Pco
+endings: 
+desert farming
+interplanetary gig-worker
+venusian animal care
+
+beginning: 
+humanities graduate from luna university.
+
+branch 1: first job
+internship in animal care
+engineering collective building product
+flight school
+
+branch 2: make important friends
+
+branch 3: personal crisis
+
+branch 4: go it alone
+
+branch 5: social crisis
+
+branch 6: settling down
+
+
+  Concepts to use:
+  conditionals
+  loops (validate user input)
+  variables
+  control flow
+  vectors for tracking life choices
+  user input
+  function decl and def with arg
+  switch statements
+*/
