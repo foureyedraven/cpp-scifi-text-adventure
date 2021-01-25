@@ -11,23 +11,21 @@
       // get
       std::string getName();
       int getKm();
-      // std::vector<Choice> getChoices();
-      // std::vector<Location> getLocations();
-      
+      std::vector<Location> getLocations();
+      std::vector<std::string> getProgress();
+
       // get last
-      // Location getLastLocation();
-      // Choice getLastChoice();
+      Location getLastLocation();
       
       // set
       void setName(std::string name);
       void setKm(int km);
-      // void setChoices(Choice choice);
-      // void setLocations(Location location)
+      void setLocations(Location location);
+      void setProgress(std::string progress);
 
     private:
       std::string name_;
       int km_;
-      // ? std::vector<Choice> choices;
-      // ? std::vector<Location> locations;
-
+      std::vector<Location> locations_;
+      std::vector<std::string> progress_;
   };

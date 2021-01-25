@@ -10,14 +10,7 @@ std::string Character::getName() {
 int Character::getKm() {
   return km_;
 }
-    
-      // std::vector<Choice> getChoices();
-      // std::vector<Location> getLocations();
-      
-      // // get last
-      // Location getLastLocation();
-      // Choice getLastChoice();
-      
+
 // set
 void Character::setName(std::string name) {
   name_ = name;
@@ -27,5 +20,10 @@ void Character::setKm(int km) {
   km_ += km;
 }
 
-      // void setChoices(Choice choice);
-      // void setLocations(Location location);
+void Character::setLocations(Location location) {
+  locations_.push_back(location);
+}
+
+void Character::setProgress(std::string progress) {
+  progress_.push_back(progress);
+}

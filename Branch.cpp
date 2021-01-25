@@ -3,9 +3,10 @@
 #include <string>
 
 // custom constructor
-Branch::Branch(int position, std::string text) {
+Branch::Branch(int position, std::string text, std::vector<Choice> choices) {
   position_ = position;
   text_ = text;
+  choices_ = choices;
 }
 
 // get
@@ -15,8 +16,7 @@ std::string Branch::getText() {
 int Branch::getPosition() {
   return position_;
 }
+std::vector<Choice> Branch::getChoices() {
+  return choices_;
+}
 
-// set
-// void Branch::setText(std::string text) {
-//   text_ = text;
-// }
